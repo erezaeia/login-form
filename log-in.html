@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Login Form</title>
+ <link rel="stylesheet" href="log-in.css">
+</head>
+
+<body></body>
+<form id="loginForm">
+  <div class="box-1">
+   <h1>Login Form</h1>
+   <form action="login.php" method="POST"></form>
+    <div class="box-2">
+
+      <div>
+        <div class="logo">
+          <img src="logo.svg" class="logo-img">
+        </div> 
+      </div>
+          
+      
+      <div class="Username">
+
+        <label for="Username"><b>Username</b></label>
+        <div>
+          <input id="username" type="text" placeholder="Enter Username" class="entry" name="Username" required>
+        </div>
+        
+      </div>
+  
+      <div class="Password">
+
+        <label for="Password"><b>Password</b></label>
+        <div>
+          <input id="password" type="password" placeholder="Enter Password" class="entry" name="Password" required>
+        </div>
+
+      </div>
+  
+      <div class="login-b" type="submit" id="submitBtn" value="login">
+         <button class="login-button">Login</button>
+      </div>
+      
+      <div>
+        <input type="checkbox" class="checkbox">
+        <span class="remember-me">Remember me</span>
+      </div>
+    </form>
+      
+    </div>
+    <button class="cancle-button"> 
+      Cancle
+    </button>
+    <span class="forget">Forget <a href="#">password?</a></span>
+  </div>
+</form>
+   <script src="login.js"></script>
+</body>
+
+</html>
